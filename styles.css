@@ -5,7 +5,9 @@
 }
 
 :root {
-  font-family: "Open Sans", sans-serif;
+  --font-default: "Outfit", sans-serif;
+
+  font-family: var(--font-default);
   font-size: 16px;
 }
 
@@ -93,6 +95,8 @@ select {
   color: #1f2523;
   background-color: transparent;
   outline: none;
+
+  font-family: var(--font-default);
 }
 
 select {
