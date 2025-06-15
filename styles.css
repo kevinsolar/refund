@@ -12,7 +12,8 @@
 }
 
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.25rem;
+  border-radius: 0.5rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -20,14 +21,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #e4ece9;
+  background: #e4ece975;
 }
 
 body {
   width: 100%;
   height: 100vh;
 
-  background-color: #e4ece9;
+  background-color: #2f3533;
+  /* background-color: #e4ece9; */
 
   display: flex;
   flex-direction: column;
@@ -48,7 +50,8 @@ main section {
 }
 
 form {
-  background-color: #f9fbfa;
+  background-color: #3e4441;
+  /* background-color: #f9fbfa; */
   border-radius: 1rem;
   padding: 2.5rem;
   max-width: 462px;
@@ -59,11 +62,13 @@ form {
 
 form h1 {
   font-size: 1.25rem;
+  color: #f9fbfa;
 }
 
 form p {
   font-size: 0.87rem;
-  color: #4d5c57;
+  color: #f9fbfa;
+  /* color: #4d5c57; */
   margin: 0.75rem 0 2.5rem;
 }
 
@@ -75,7 +80,8 @@ fieldset {
 fieldset legend {
   text-transform: uppercase;
   font-size: 0.62rem;
-  color: #4d5c57;
+  color: #f9fbfa;
+  /* color: #4d5c57; */
   margin-bottom: 0.5rem;
 }
 
@@ -92,7 +98,8 @@ select {
   border: 1px solid #cdd5d2;
   padding: 0 1rem;
   font-size: 0.87rem;
-  color: #1f2523;
+  color: #f9fbfa;
+  /* color: #1f2523; */
   background-color: transparent;
   outline: none;
 
@@ -102,6 +109,7 @@ select {
 select {
   appearance: none;
   background-image: url(img/chevron-down.svg);
+  background-color: #3e4441;
   background-repeat: no-repeat;
   background-position: right 0.7rem top 50%;
   background-size: 1.25rem auto;
@@ -109,7 +117,8 @@ select {
 
 input::placeholder,
 select:invalid {
-  color: #4d5c57;
+  color: #9c9c9c;
+  /* color: #4d5c57; */
 }
 
 input:focus,
@@ -156,7 +165,8 @@ form button:last-child {
 }
 
 aside {
-  background-color: #f9fbfa;
+  background-color: #3e4441;
+  /* background-color: #f9fbfa; */
   border-radius: 1rem;
   padding: 2.5rem;
   max-width: 462px;
@@ -175,13 +185,15 @@ aside header {
   margin-bottom: 1.5rem;
 }
 aside header p {
-  color: #4d5c57;
+  color: #f9fbfa;
+  /* color: #4d5c57; */
   font-weight: 400;
   font-size: 1rem;
 }
 
 aside header p span {
-  color: #4d5c57;
+  color: #f9fbfa;
+  /* color: #4d5c57; */
   font-weight: 400;
   font-size: 0.87rem;
 }
@@ -194,11 +206,13 @@ aside header p i {
 
 aside header h2 {
   font-size: 1rem;
-  color: #1f2523;
+  color: #e4ece9;
+  /* color: #1f2523; */
 }
 
 aside header small {
-  color: #4d5c57;
+  color: #f9fbfa;
+  /* color: #4d5c57; */
   font-weight: 400;
   font-size: 0.75rem;
   margin-right: 0.25rem;
@@ -219,7 +233,12 @@ aside ul {
 .expense {
   display: flex;
   align-items: center;
-  height: 38px;
+  height: 42px;
+  padding-inline: 0.5rem;
+
+  border-radius: 0.5rem;
+
+  border: 1px solid #e4ece9;
 }
 
 .expense img:first-child {
@@ -237,23 +256,27 @@ aside ul {
 
 .expense-info strong {
   font-size: 0.87rem;
-  color: #1f2523;
+  color: #e4ece9;
+  /* color: #1f2523; */
 }
 
 .expense-info span {
   font-size: 0.75rem;
-  color: #4d5c57;
+  color: #f9fbfa;
+  /* color: #4d5c57; */
 }
 
 .expense-amount {
   font-size: 0.87rem;
-  color: #1f2523;
+  color: #e4ece9;
+  /* color: #1f2523; */
   font-weight: 600;
 }
 
 .expense-amount small {
   font-size: 0.75rem;
-  color: #4d5c57;
+  color: #f9fbfa;
+  /* color: #4d5c57; */
   font-weight: 400;
   margin-right: 0.25rem;
 }
